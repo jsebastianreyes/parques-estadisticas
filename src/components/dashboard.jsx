@@ -14,12 +14,13 @@ const DashboardStyled = styled.div`
     max-inline-size:64rem;
     margin: auto;
     padding-inline: 1.5rem;
-    padding-block: 2rem;
+    padding-block: 1rem;
     box-sizing: border-box;
 
     @media screen and (min-width: 752px) {
       &{
         gap: 2rem;
+        align-items: center;
       }
     }
 
@@ -57,7 +58,7 @@ function Dashboard() {
     increaseScore(id, playersCOPY[0].score, playersCOPY[1].score)
     
     //CAMPEON
-    if(playersCOPY[0].score === 10 || playersCOPY[1].score === 10 ){
+    if(playersCOPY[0].score === 30 || playersCOPY[1].score === 30 ){
         playersCOPY[id].champions+= 1
        increaseChampions(playersCOPY[0].champions, playersCOPY[1].champions)
        setWinner({active:true, nameWinner: id })
