@@ -23,6 +23,7 @@ const DashboardStyled = styled.div`
       &{
         gap: 2rem;
         align-items: center;
+        block-size: auto;
       }
     }
 
