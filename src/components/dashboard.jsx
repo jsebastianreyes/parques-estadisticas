@@ -16,7 +16,8 @@ const DashboardStyled = styled.div`
     padding-inline: 1.5rem;
     padding-block: 3rem;
     box-sizing: border-box;
-    gap: 1rem;
+    gap: 2rem;
+    align-items: center;
 
     @media screen and (min-width: 752px) {
       &{

@@ -11,6 +11,7 @@ const GlobalStylesStyled = createGlobalStyle`
     padding: 0;
     font: var(--body-regular);
     background-color: #8EC5FC;
+    min-block-size: 100vh;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
   }
