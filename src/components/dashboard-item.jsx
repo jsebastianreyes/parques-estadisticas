@@ -30,6 +30,7 @@ const DashboardItemStyled = styled.section`
         margin:0;
         padding:0;
         text-align: center;
+        color: #000;
     }
     
     &.player_1{

@@ -12,11 +12,17 @@ const DashboardStyled = styled.div`
     block-size: 100vh;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     max-inline-size:64rem;
     margin: auto;
     padding-inline: 1.5rem;
     padding-block: 2rem;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 752px) {
+      &{
+        gap: 2rem;
+      }
+    }
 
 
 `
