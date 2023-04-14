@@ -9,7 +9,7 @@ import confetti from 'canvas-confetti'
 const DashboardStyled = styled.div`
     display: flex;
     flex-wrap: wrap;
-    block-size: 100vh;
+    
     justify-content: center;
     max-inline-size:64rem;
     margin: auto;
@@ -18,12 +18,13 @@ const DashboardStyled = styled.div`
     box-sizing: border-box;
     gap: 2rem;
     align-items: center;
+    block-size: auto;
 
     @media screen and (min-width: 752px) {
       &{
         gap: 2rem;
         align-items: center;
-        block-size: auto;
+        block-size: 100vh;
       }
     }
 
