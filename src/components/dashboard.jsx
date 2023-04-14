@@ -14,7 +14,7 @@ const DashboardStyled = styled.div`
     max-inline-size:64rem;
     margin: auto;
     padding-inline: 1.5rem;
-    padding-block: 1rem;
+    padding-block: 3rem;
     box-sizing: border-box;
 
     @media screen and (min-width: 752px) {
