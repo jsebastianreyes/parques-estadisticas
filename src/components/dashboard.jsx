@@ -41,7 +41,7 @@ function Dashboard() {
         if(winner.active){
            confetti()
            setTimeout(() => {
-            setWinner(initialValues)
+             setWinner(initialValues)
           }, 2000);
          
         }

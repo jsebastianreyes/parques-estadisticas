@@ -6,6 +6,7 @@ const OverlayStyled = styled.div`
   inset: 0;
   z-index: 2;
   background-color: #000000ac;
+  padding-inline: 2rem;
 `
 
 function Overlay({ children }) {
