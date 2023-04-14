@@ -15,7 +15,7 @@ const ModalStyled = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  max-inline-size: 21rem;
+  max-inline-size: 20rem;
   inline-size: 100%;
   border: 1px solid #fff;
   /* margin-inline: 2rem; */

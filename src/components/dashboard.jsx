@@ -11,7 +11,6 @@ const DashboardStyled = styled.div`
     flex-wrap: wrap;
     block-size: 100vh;
     justify-content: center;
-    align-items: center;
     max-inline-size:64rem;
     margin: auto;
     padding-inline: 1.5rem;

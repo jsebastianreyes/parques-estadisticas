@@ -21,6 +21,7 @@ const DashboardItemStyled = styled.section`
     position: relative;
     background: #ffffff5e;
     box-shadow: 1px 1px 5px #000;
+    block-size: 200px;
     /* background: #303134;
     color: white; */
 
